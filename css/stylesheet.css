@@ -55,3 +55,42 @@
     background-color: #abbf73; 
     color: rgb(22, 12, 12);
 }
+
+/* Features section*/
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+#featured {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#featured .feat-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    margin: 15px 0;
+}
+
+#featured .feat-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#featured .feat-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#featured .feat-box h6{
+    display: inline-block;
+    padding: 9px 8px;
+    line-height: 6px;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+}
