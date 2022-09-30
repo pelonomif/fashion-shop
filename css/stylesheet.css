@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Home Page */
+#hero{
+    background-image: url("/assets/images/background/black-women-green-suit.jpg");
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: top 10% right 0;
+    padding:0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+#hero h4{
+    padding-bottom: 15px;
+
+}
+
+#hero h1{
+    color: #7b8f4b
+
+}
+
+.btn{
+    background-color: #90a84d; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+
+}
+
+.btn:hover{
+    background-color: #abbf73; 
+    color: rgb(22, 12, 12);
+}
