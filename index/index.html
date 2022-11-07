@@ -10,7 +10,7 @@
         <link rel= "stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
         <link rel="stylesheet" href="/css/stylesheet.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.39/vue.cjs.js" integrity="sha512-zdVl3VXeIbC+voYo4oJ7cIvMb8mP1l8LFe2pF0PlYlHwqEP0mcAyDIl1XSaQZwALrC2tYsFg+rww4TF4I/4lTA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="script.js"></script>
+        
     </head>
     <body>
         <header id="navbar">
@@ -20,7 +20,7 @@
                   </a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
                     <div class="navbar-nav">
-                        <ul class="nav justify-content-flex-start">
+                        <ul class="nav" >
                             <li class="nav-item"> <a class="nav-link active" href="index.html">Home</a></li>
                             <li class="nav-item"> <a class="nav-link" href="shop.html">Shop</a></li>
                             <li class="nav-item"> <a class="nav-link" href="about.html">About</a></li>
@@ -29,8 +29,8 @@
                         </ul>
                     </div>
                     <div id="mobile">
-                        <i class="fa fa-shopping-cart"></i>
-                        <i id="bar" class="fa fa-bars"></i>
+                        <button><i class="fa fa-shopping-cart"></i></button>
+                        <button id="showMenu"><i class="fa fa-bars"></i></button>
                     </div>
                 </div>
               </nav>
@@ -270,5 +270,6 @@
             </div>
 
         </footer>
+        <script src="/js/script.js"></script>
     </body>
 </html>
