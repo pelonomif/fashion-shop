@@ -3,11 +3,11 @@ const bar = document.getElementById("bar");
 const menu = document.getElementById("menu")
 
 //showing navbar menu when button is clicked
-menuBtn.addEventListener("click", function(e){
-    if (menuBtn.clicked == true){
-        menu.style.display == "flex";
+    if (menu.style.display == "flex") {
+            menu.style.display= "none"
+        
     }
     else{
-        menu.style.display == "none";
+        menu.style.display == "flex";
     }
-});
+
